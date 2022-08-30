@@ -1,0 +1,48 @@
+.login,.Signup{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap:20px;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+.button{
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}

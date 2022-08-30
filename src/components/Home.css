@@ -1,0 +1,12 @@
+.home{
+   padding: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
